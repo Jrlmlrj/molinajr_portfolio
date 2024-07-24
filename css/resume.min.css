@@ -47,5 +47,125 @@
   padding-bottom: 5px; /* Space between text and underline */
   margin-bottom: 15px; /* Space below the label */
 }
+.project-image {
+  display: flex;
+  justify-content: center;
+}
+
+.project-image img {
+  max-width: 100%; /* Ensure image does not exceed its container */
+  height: auto; /* Maintain aspect ratio */
+}
+.position-relative {
+  position: relative;
+}
+
+.badges-container {
+  display: flex;
+  gap: 0.5rem; /* Space between badges */
+}
+
+.badge {
+  font-size: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.375rem;
+}
+
+.bg-primary {
+  background-color: #007bff; /* Color for both badges */
+}
+
+.text-white {
+  color: #fff;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.end-0 {
+  right: 0;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.badges-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem; /* Space between badges */
+}
+
+.badge {
+  font-size: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.375rem;
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.bg-primary {
+  background-color: #007bff; 
+}
+
+.bg-secondary {
+  background-color: #6c757d; 
+}
+
+.bg-dark {
+  background-color: #343a40; 
+}
+
+.bg-success {
+  background-color: #28a745; 
+}
+
+.bg-info {
+  background-color: #17a2b8; 
+}
+
+.bg-warning {
+  background-color: #ffc107; 
+}
+
+.bg-danger {
+  background-color: #dc3545; 
+}
+.bg-csharp {
+  background-color:#1b50fc
+}
+.bg-nodemcu{
+  background-color: #eb30fc;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-dark {
+  color: #212529;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.start-0 {
+  left: 0;
+}
+
+.mb-5 {
+  margin-bottom: 3rem; 
+}
+
+
 
 .bg-primary{background-color:#bd5d38!important}.text-primary{color:#bd5d38!important}a{color:#bd5d38}a:active,a:focus,a:hover{color:#824027}
